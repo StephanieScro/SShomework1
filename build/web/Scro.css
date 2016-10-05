@@ -1,0 +1,92 @@
+/*Copyright (c) 2016 Stephanie Scro
+Homework 1 Responsive Resume CSS
+*/
+
+body{
+    font-family: Candela, Caviar Dreams,        sans-serif;
+    font-size:75%;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.Technological li{
+    display: inline-block;
+}
+
+
+.contact, .adress{
+    display:inline;
+}
+
+aside{
+    text-align:center;
+    margin-bottom: 0px;
+}
+
+.education p{
+    display:inline;
+}
+
+
+h2{
+    text-transform: uppercase;
+    text-decoration:underline;
+    margin-bottom:0px;
+}
+
+h3{
+    margin:0px 0px;
+}
+
+p{
+    margin: 0px 0px;
+
+}
+
+ul{
+    margin: 0px 0px;
+}
+
+h4{
+    font-style:italic;
+    margin:0px 0px;
+}
+.date{
+    float:right;
+    font-style: normal;
+}
+
+.date, h4{
+    font-weight:normal;
+    display:inline;
+}
+
+@media screen and (max-width:500px){
+
+    .date{
+        float:none;
+    }
+
+    h2{
+        font-size:120%;
+    }
+
+    .contact{
+        diplay:none;
+        color:white;
+    }
+    .address{
+        diplay:block;
+        width:100%
+    }
+    .one{
+        float:none;
+    }
+
+    .Technological li{
+        display:inherit;
+    }
+}
